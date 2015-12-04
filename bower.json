@@ -1,0 +1,14 @@
+{
+  "name": "human",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "backbone": "~1.2.3",
+    "jquery-ui": "~1.11.4"
+  }
+}

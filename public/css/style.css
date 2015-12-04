@@ -1,0 +1,77 @@
+.topbar .options {
+  padding-left: 350px;
+}
+.topbar .options li {
+  background-color: #69c;
+  display: inline-block;
+  padding: 20px;
+}
+.sidebar {
+  float: left;
+  margin-left: 200px;
+}
+.sidebar li {
+  background-color: #69c;
+  list-style: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.mainbox {
+  position: relative;
+  float: left;
+  border: 1px solid #ccc;
+  height: 500px;
+  min-width: 700px;
+  overflow: hidden;
+}
+.mainbox .person-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 50000000px;
+}
+.mainbox .person-list li {
+  list-style: none;
+  float: left;
+  padding: 15px 20px;
+  margin-right: 2px;
+  background-color: #87796c;
+}
+.mainbox .person-list li.cur-person {
+  background-color: #fff;
+}
+.mainbox .slide-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 46px;
+  width: 15px;
+  border: 1px solid #232323;
+}
+.mainbox .chat-box {
+  width: 100%;
+}
+.mainbox .chat-box .screen-area {
+  overflow: auto;
+  margin-top: 50px;
+  height: 350px;
+  border-bottom: 1px solid #ccc;
+}
+.mainbox .chat-box .screen-area .messages {
+  padding: 0;
+}
+.mainbox .chat-box .screen-area .messages .message {
+  list-style: none;
+  padding: 5px 10px;
+}
+.mainbox .chat-box .screen-area .messages .message.left {
+  text-align: left;
+}
+.mainbox .chat-box .screen-area .messages .message.right {
+  text-align: right;
+}
+.mainbox .chat-box .type-area {
+  height: 150px;
+}
